@@ -4,8 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 bat 'dart pub get'
-            }
-            steps {
                 bat 'dart test'
             }
         }
