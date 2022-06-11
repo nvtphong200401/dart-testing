@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'dart test'
+                bat 'dart test'
             }
         }
     }
